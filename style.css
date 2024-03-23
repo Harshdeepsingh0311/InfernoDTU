@@ -106,7 +106,7 @@ body {
 
 .showcaseHead{
     margin: 0;
-    background-image: url(roverBG.png);
+    /* background-image: url(roverBG.png); */
   background-size: cover;
   height: 200px;
   color: white;
@@ -129,7 +129,7 @@ body {
   height:60vh;
   margin:0;
   padding:0;
-  background-image: url(roverBG.png);
+  /* background-image: url(roverBG.png); */
   background-size: cover;
   font-family: Helvetica;
 }
