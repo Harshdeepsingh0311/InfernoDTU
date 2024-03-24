@@ -1,9 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     border: border-box;
     background-image: url(../res/roverBG.png);
     background-size: cover;
+}
+
+#home, #rovers{
+  scroll-behavior: smooth !important;
 }
 
 .navbar{
@@ -209,6 +217,13 @@ body {
   z-index:1;
 }
 
+.card--behind
+{
+  transform:scale(1) translate(0px, 0px) perspective( 750px ) rotateY(0deg);
+  box-shadow:0 30px 50px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
 .card__icon
 {
   width:50%;
@@ -283,6 +298,11 @@ body {
   .card--right
   {
     transform:scale(0.75) translate(0px, 150px) perspective(750px) rotateY(0) rotateX(10deg) translateZ(-5px);
+  }
+
+  .card--behind
+  {
+    transform:scale(1) translate(0px, 0px) perspective( 750px ) rotateY(0deg)  rotateX(0deg) translateZ(5px);
   }
 
   .card__icon:before
