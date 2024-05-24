@@ -11,6 +11,15 @@
   <script src="cards.js"></script>
   <script src="script.js"></script>
   <link rel="icon" type="image/x-icon" href="/res/favicon.ico">
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
   <title>Inferno - Official Mars Rover Team of DTU</title>
 
 </head>
@@ -66,7 +75,7 @@
       <div class="cards">
         <div class="card fill-orange" data-card="0">
           <div class="card__icon novus" data-icon="1"></div>
-          <div class="card__detail">
+          <div class="card__detail black">
             <h3>Novus</h3> &nbsp;
             <p>(Second Gen)</p>
             <p>Introduced in IRC'XX</p>
@@ -77,8 +86,8 @@
         </div>
         <div class="card fill-blue" data-card="1">
           <div class="card__icon nambi2" data-icon="2"></div>
-          <div class="card__detail">
-            <h3>Nambi 2.0</h3> &nbsp;
+          <div class="card__detail black">
+            <h3 class="gen">Nambi 2.0</h3> &nbsp;
             <p>(Fourth Gen)</p>
             <p>Introduced in IRC'24</p>
             <p class="rover-details">
@@ -88,8 +97,8 @@
         </div>
         <div class="card fill-green" data-card="3">
           <div class="card__icon nambi" data-icon="4"></div>
-          <div class="card__detail">
-            <h3>Nambi</h3> &nbsp;
+          <div class="card__detail black">
+            <h3 class="gen">Nambi</h3> &nbsp;
             <p>(Third Gen)</p>
             <p>Introduced in IRC'23</p>
             <p class="rover-details">
@@ -99,8 +108,8 @@
         </div>
         <div class="card fill-purple" data-card="2">
           <div class="card__icon nambi2" data-icon="3"></div>
-          <div class="card__detail">
-            <h3>Argus</h3> &nbsp;
+          <div class="card__detail black">
+            <h3 class="gen">Argus</h3> &nbsp;
             <p>(First Gen)</p>
             <p>Introduced in IRC'XX</p>
             <p class="rover-details">
@@ -166,7 +175,102 @@
 
   <!-- Team Section -->
   <div class="team-section" id="team">
-    Team Section
+    <h2>The Team</h2>
+    <section class="container">
+      <div class="card__container swiper">
+         <div class="card__content">
+            <div class="swiper-wrapper">
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="assets/img/avatar-1.png" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+   
+                  <div class="card__data">
+                     <h3 class="card__name">Pourush Sachdeva</h3>
+                     <p class="card__description">
+                        Captain
+                     </p>
+                  </div>
+               </article>
+   
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="assets/img/avatar-2.png" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+   
+                  <div class="card__data">
+                     <h3 class="card__name">Kushagra Arora</h3>
+                     <p class="card__description">
+                        Software Lead
+                     </p>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="assets/img/avatar-1.png" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+   
+                  <div class="card__data">
+                     <h3 class="card__name">Devansh Gupta</h3>
+                     <p class="card__description">
+                        Mechanical Lead
+                     </p>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="assets/img/avatar-2.png" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+   
+                  <div class="card__data">
+                     <h3 class="card__name">Akshat Gupta</h3>
+                     <p class="card__description">
+                        Electrical Lead
+                     </p>
+                  </div>
+               </article>
+
+               <article class="card__article swiper-slide">
+                  <div class="card__image">
+                     <img src="assets/img/avatar-1.png" alt="image" class="card__img">
+                     <div class="card__shadow"></div>
+                  </div>
+   
+                  <div class="card__data">
+                     <h3 class="card__name">Arpit Khetan</h3>
+                     <p class="card__description">
+                        Team Manager
+                     </p>
+                  </div>
+               </article>
+            </div>
+         </div>
+
+         <!-- Navigation buttons -->
+         <div class="swiper-button-next">
+            <i class="ri-arrow-right-s-line"></i>
+         </div>
+         
+         <div class="swiper-button-prev">
+            <i class="ri-arrow-left-s-line"></i>
+         </div>
+
+         <!-- Pagination -->
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+   
+   <!--=============== SWIPER JS ===============-->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
   </div>
 
   <div class="achieve-section" id="achievement">

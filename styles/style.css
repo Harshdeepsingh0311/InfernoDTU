@@ -15,7 +15,8 @@ body {
 }
 
 .navbar{
-    height: 70px;
+    height: 10%;
+    width: 100%;
     background-color: white !important;
     color: white;
     padding: 10px 0 0 0;
@@ -49,6 +50,8 @@ body {
     display: flex;
     flex-direction: row-reverse;
     list-style-type: none;
+    position: relative;
+    top: 0.5rem;
 }
 
 .nav-item a{
@@ -90,7 +93,7 @@ body {
     opacity: 0.5;
     z-index: 1;
     position: absolute;
-    top: 80px;
+    top: 70px;
     margin-bottom: 0;
 }
 
@@ -133,7 +136,7 @@ body {
   align-items:center;
   justify-content:center;
   width:100%;
-  height:80vh;
+  height:100vh;
   margin:0;
   padding:0;
   /* background-image: url(roverBG.png); */
@@ -310,6 +313,10 @@ body {
   }
 }
 
+.black{
+  color: black;
+}
+
 
 /* Dept Section */
 .dept-section
@@ -403,13 +410,19 @@ body {
 .team-section
 {
   width: 100%;
-  height: 500px;
-  background-color: black;
+  height: 100vh;
+  font-family: Helvetica;
+  font-size: 4rem;
+  /* background-color: black; */
   color: white;
   text-align: center;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+}
+
+.team-section h2{
+  color: white(195, 100%, 33%);
 }
 
 .achieve-section
@@ -417,6 +430,7 @@ body {
   width: 100%;
   height: 500px;
   background-color: white;
+  color: black;
   text-align: center;
   display: flex;
   align-items: center;
