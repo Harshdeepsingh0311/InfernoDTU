@@ -79,7 +79,7 @@ img {
 .card__data {
   background-color: var(--container-color);
   padding: 1.5rem 2rem;
-  border-radius: 1rem;
+  border-radius: 0 0 1rem 1rem;
   text-align: center;
   position: relative;
   z-index: 10;
