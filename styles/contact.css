@@ -18,7 +18,7 @@
 .footer-banner-section{
   color: white;
   height: 300px;
-  width: 250px;
+  width: 300px;
   /* background-color: #fff; */
 }
 
@@ -73,6 +73,47 @@
   bottom: 0;
   background-color: rgb(19, 32, 47);
   color: white;
-  /* display: flex;
-  flex-direction: row; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.social-links{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.social-link{
+  margin-right: 1rem;
+}
+
+.fa-instagram{
+  color: #ffffff;
+  transition: 0.5s ease-in;
+}
+
+.fa-instagram:hover{
+  color: rgb(255, 102, 196);
+}
+
+.fa-linkedin{
+  color: #ffffff;
+  transition: 0.5s ease-in;
+}
+
+.fa-linkedin:hover{
+  color: #0A66C2;
+}
+
+.fa-google{
+  color: #ffffff;
+  transition: 0.5s ease-in;
+}
+
+.fa-google:hover{
+  color: rgb(255, 73, 73);
+}
+
+.copyright{
+  text-align: left;
 }

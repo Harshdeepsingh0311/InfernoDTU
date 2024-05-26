@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection{
+  background-color: #ffa19a;
+}
+
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
