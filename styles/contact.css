@@ -42,6 +42,10 @@
   margin-top: 1.5rem;
 }
 
+.mail-link{
+  color: white;
+}
+
 .link-list li a{
   color: white;
 }
