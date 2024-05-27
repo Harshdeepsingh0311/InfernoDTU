@@ -14,6 +14,10 @@ body {
     background-size: cover;
 }
 
+.phone-banner{
+  display: none;
+}
+
 #home, #rovers{
   scroll-behavior: smooth !important;
 }
@@ -65,4 +69,14 @@ body {
 
 .yellow{
   color: goldenrod;
+}
+
+@media only screen and (max-width: 600px){
+  .phone-banner{
+    display: flex;
+    justify-content: center;
+  }
+  .shadow{
+    top: 90px;
+  }
 }
