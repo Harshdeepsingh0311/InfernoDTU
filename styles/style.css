@@ -42,8 +42,11 @@ body {
 
 .headline{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     top: 140px;
-    left: 30vw;
+    left: 33vw;
     text-align: center;
     color: white;
     z-index: 2;
