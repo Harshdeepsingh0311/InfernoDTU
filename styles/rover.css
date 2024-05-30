@@ -27,6 +27,10 @@
   font-family: Helvetica;
 }
 
+.rover-details{
+  margin-top: 8px ;
+}
+
 .fill-purple
 {
   background-image: linear-gradient(90deg, #4addff, #a34dfe);
