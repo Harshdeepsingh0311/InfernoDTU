@@ -29,6 +29,8 @@
 
 .rover-details{
   margin-top: 8px ;
+  font-size: 0.75rem;
+  padding-right: 5px;
 }
 
 .fill-purple
@@ -149,6 +151,11 @@
 .nambi2::before{
     background-image: url(../res/Rovers/nambi2.png);
     background-size: cover;
+}
+
+.argus::before{
+  background-image: url(../res/Rovers/argus.png);
+  background-size: cover;
 }
 
 .card__detail
