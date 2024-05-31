@@ -80,3 +80,9 @@
 .post3{
   background-image: url("../res/Achievement/achieve2.png");
 }
+
+@media only screen and (max-width: 600px){
+  .post-section{
+    flex-direction: column;
+  }
+}
