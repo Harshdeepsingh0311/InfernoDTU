@@ -28,6 +28,10 @@
   background-color: white;
 }
 
+.dept-text h2{
+  margin-bottom: 1rem;
+}
+
 .dept-container {
   position: relative;
   width: 50%;
